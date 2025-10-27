@@ -1,7 +1,8 @@
 import { TimerIcon } from 'lucide-react';
-import { Heading } from './components/Heading/index';
-import { Container } from './components/Container/index';
+import { Heading } from './components/Heading';
+import { Container } from './components/Container';
 import { Logo } from './components/Logo'
+import { Menu } from './components/Menu'
 
 import './styles/global.css';
 import './styles/theme.css';
@@ -16,7 +17,7 @@ export function App() {
             </Container>
 
             <Container>
-                <Heading>Menu</Heading>
+                <Menu/>
             </Container>
         </>
     )
